@@ -1,0 +1,11 @@
+streamlit
+streamlit_option_menu
+PIL
+pygame
+gtts
+os
+speech_recognition
+googletrans
+mtranslate
+pandas
+base64
