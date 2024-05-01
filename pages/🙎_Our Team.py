@@ -4,7 +4,7 @@ from PIL import Image
 st.write("""<h1 style="">Our Team.</h1>""",unsafe_allow_html=True)
 selected = option_menu(
     menu_title=None,  # required
-    options=["KARTIK", "TANISH","NIKHIL","PRATHAM","SIR"],  # required
+    options=["Kartik", "Tanish","Nikhil","Pratham","Mentor"],  # required
     icons=["person","person", "person", "person","person"],  # optional
     menu_icon="cast",  # optional
     default_index=0,  # optional
@@ -18,7 +18,7 @@ st.markdown('''
             }
             </style>
             ''',unsafe_allow_html=True)
-if selected == "KARTIK":
+if selected == "Kartik":
     st.markdown("""
             <style>
             .st-emotion-cache-1v0mbdj.e115fcil1 img{
@@ -69,7 +69,7 @@ if selected == "KARTIK":
              https://github.com/Aku-Davis""")
     
     
-if selected == "PRATHAM":
+if selected == "Pratham":
     st.markdown("""
             <style>
             .st-emotion-cache-1v0mbdj.e115fcil1 img{
@@ -116,7 +116,7 @@ if selected == "PRATHAM":
                 prathamrathod.sd21@gmail.com""")
     st.title("""Contact No: 
                  7862805842""")
-if selected == "TANISH":
+if selected == "Tanish":
     st.markdown("""
             <style>
             .st-emotion-cache-1v0mbdj.e115fcil1 img{
@@ -164,7 +164,7 @@ if selected == "TANISH":
     st.title("""Contact No: 
                 8780867785""")
     
-if selected == "NIKHIL":
+if selected == "Nikhil":
     st.markdown("""
             <style>
             .st-emotion-cache-1v0mbdj.e115fcil1 img{
@@ -211,8 +211,46 @@ if selected == "NIKHIL":
                 nikhilnayka.sd21@gmail.com""")
     st.title("""Contact No: 
                 8733847211""")   
-if selected=="MENTOR":
- ()
+if selected=="Mentor":
+    st.markdown("""
+            <style>
+            .st-emotion-cache-1v0mbdj.e115fcil1 img{
+                border-radius:20%;
+                height:190px;
+                object-fit: cover;
+                margin-left: 230px;
+            } 
+            </style> 
+                """,unsafe_allow_html=True)
+    col1, col2 = st.columns(2)
+    with col1:
+        img = Image.open("sir.jpg")
+        st.image(img,
+             width=200 ,
+             channels="RGB",
+             )
+    with col2:
+        st.markdown("""
+            <style>
+                .st-emotion-cache-zt5igj{
+                position: relative;
+                left: calc(-3rem);
+                width: calc(100% + 3rem);
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                overflow: visible;
+                margin-right: 45px;
+                font-size:28px;
+            }
+            </style> 
+                """,unsafe_allow_html=True)
+    st.title("""Abdul Aziz Sir(Our Mentor)
+                 """)
+    st.title("""Linked In Profile:
+             https://www.linkedin.com/in/abdul-aziz-md/""")
+    st.title("""Contact No: 
+                +91 96036 23824""")
 footer="""<style>
 .footer {
 position: fixed;
