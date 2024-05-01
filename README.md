@@ -28,7 +28,7 @@ Step 7: Make Sure To Run This 🏠_HOME.py file Terminal Path is set Where The �
         
 Step 8: If Path Is not set you can change it easily in my case i am using Vs-code So to change 
         The path in Vs.code "terminal.integrated.cwd" Copy This and Paste it in Vs-code 
-        Settings. Then Copy the Path Of You File and Paste it in Vs-code Terminal Settings
+        Settings. Then Copy the Path Of Your File and Paste it in Vs-code Terminal Settings
 
 Step 9: After The Path is set Now open Vs-Code Terminal or Press "ctrl + Shift + `" on Your 
         Keyboard And Type: "streamlit run 🏠_HOME.py"  and Press Enter.
